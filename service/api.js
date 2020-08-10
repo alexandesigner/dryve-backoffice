@@ -1,7 +1,11 @@
 import { create } from 'apisauce'
 
-const protocol = process.env.NODE_ENV !== 'production' ? 'http' : 'http'
-const baseURL = `${protocol}://localhost:3000`
+const protocol = process.env.NODE_ENV !== 'production' ? 'http' : 'https'
+const baseURL = `${protocol}://${
+  process.env.NODE_ENV === 'production'
+    ? 'dryve-backoffice-pi.vercel.app'
+    : 'localhost:3000'
+}`
 
 export function createApi() {
   const apiOtions = {
