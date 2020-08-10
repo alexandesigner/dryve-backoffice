@@ -31,7 +31,7 @@ const Index = (props) => {
     reportsResponse && reportsResponse.length > 0 ? reportsResponse[0] : []
   return (
     <DefaultLayout>
-      <Box p={4}>
+      <Box className="boxContent">
         <Grid container spacing={3}>
           <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
             <StatsItem stats={reports['evaluations_today']} />

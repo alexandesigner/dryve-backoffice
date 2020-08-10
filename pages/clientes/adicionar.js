@@ -1,5 +1,12 @@
 import React from 'react'
-import { Box, Card, Tabs, Tab, Typography } from '@material-ui/core'
+import {
+  Box,
+  Card,
+  Tabs,
+  Tab,
+  Typography,
+  useMediaQuery
+} from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 import DefaultLayout from 'components/layouts/Default'
@@ -31,7 +38,7 @@ const useStyles = makeStyles(
 
 const ClientAdd = (props) => {
   const classes = useStyles()
-
+  const ifTouch = useMediaQuery('(max-width: 890px)')
   const [value, setValue] = React.useState(0)
 
   const handleChange = (event, newValue) => {
@@ -53,8 +60,9 @@ const ClientAdd = (props) => {
             onChange={handleChange}
             indicatorColor="primary"
             textColor="primary"
-            variant="fullWidth"
-            aria-label="client tabs"
+            aria-label="customtabs"
+            scrollButtons="on"
+            variant={ifTouch ? 'scrollable' : 'fullWidth'}
           >
             <Tab label="dados do cliente" {...a11yProps(0)} />
             <Tab label="dados do veículo" {...a11yProps(1)} />

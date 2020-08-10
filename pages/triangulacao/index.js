@@ -5,7 +5,7 @@ import NotFound from 'components/ui/NotFound'
 
 const Triangulation = () => (
   <DefaultLayout>
-    <Box p={4}>
+    <Box className="boxContent">
       <NotFound />
     </Box>
   </DefaultLayout>

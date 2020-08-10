@@ -42,49 +42,10 @@ const headCells = [
 
 const useStyles = makeStyles(
   (theme) => ({
-    root: {},
-    paper: {
-      width: '100%',
-      marginBottom: theme.spacing(2)
-    },
+    ...theme.base.table,
     table: {
-      minWidth: 750
-    },
-    visuallyHidden: {
-      border: 0,
-      clip: 'rect(0 0 0 0)',
-      height: 1,
-      margin: -1,
-      overflow: 'hidden',
-      padding: 0,
-      position: 'absolute',
-      top: 20,
-      width: 1
-    },
-    status: {
-      '& .MuiBox-root': {
-        height: 26,
-        minWidth: 80,
-        borderRadius: 28,
-        display: 'inline-flex',
-        padding: '5px 12px',
-        background: theme.palette.primary.light,
-        color: theme.palette.primary.main,
-        fontSize: 12,
-        textTransform: 'none',
-        justifyContent: 'center',
-        margin: '0 auto'
-      },
-      '& span': {
-        display: 'block',
-        marginTop: 11,
-        textAlign: 'center'
-      }
-    },
-    default: {
-      '& .MuiBox-root': {
-        background: '#f6f6f6',
-        color: '#666'
+      '& .MuiTableHead-root': {
+        borderBottom: '1px solid #e6e6e6'
       }
     }
   }),

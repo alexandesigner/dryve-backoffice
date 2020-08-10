@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import clsx from 'clsx'
 import { useRouter } from 'next/router'
 import { useStoreState, useStoreActions } from 'easy-peasy'
@@ -33,14 +34,20 @@ const useStyles = makeStyles(
     },
     container: {
       maxWidth: 596,
-      width: '100%'
+      width: '100%',
+      [theme.breakpoints.down('sm')]: {
+        padding: 12
+      }
     },
     footer: {
       width: '100%',
       padding: 20,
       borderTop: '1px solid #e0e0e0',
       '& .MuiButtonBase-root': {
-        minWidth: 150
+        minWidth: 150,
+        [theme.breakpoints.down('sm')]: {
+          width: '100%'
+        }
       }
     },
     phoneItem: {
@@ -619,6 +626,12 @@ const ClientDetailsForm = (props) => {
       </Formik>
     </Box>
   )
+}
+
+ClientDetailsForm.propTypes = {
+  cities: PropTypes.array.isRequired,
+  states: PropTypes.array.isRequired,
+  hasUpdate: PropTypes.bool
 }
 
 export default ClientDetailsForm

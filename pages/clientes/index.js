@@ -5,7 +5,7 @@ import ClientsTable from 'components/ui/tables/ClientsTable'
 
 const Clients = () => (
   <DefaultLayout>
-    <Box p={4}>
+    <Box className="boxContent">
       <ClientsTable />
     </Box>
   </DefaultLayout>

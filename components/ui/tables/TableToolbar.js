@@ -26,6 +26,17 @@ const useStyles = makeStyles(
       paddingLeft: 0,
       paddingRight: 0,
       marginBottom: 15,
+      '& > .full-width': {
+        [theme.breakpoints.down('sm')]: {
+          flexDirection: 'column',
+          '& a': {
+            marginTop: 10,
+            '& button': {
+              width: '100%'
+            }
+          }
+        }
+      },
       '& a': {
         textDecoration: 'none'
       }
@@ -68,6 +79,7 @@ const useStyles = makeStyles(
     buttonFilter: {
       border: `1px solid ${theme.palette.divider}`,
       background: 'white',
+      minWidth: '102px',
       '&:hover': {
         borderColor: theme.palette.primary.main,
         background: 'white'
@@ -84,7 +96,7 @@ const useStyles = makeStyles(
 
 const SearchField = withStyles((theme) => ({
   root: {
-    margin: '0 10px',
+    margin: '0 0 0 10px',
     '& .MuiOutlinedInput-input': {
       padding: '0 10px',
       height: 38,
