@@ -97,8 +97,9 @@ const ClientDetailsForm = (props) => {
   const handleAddressByCep = (setFieldValue, zipCode) => {
     cep(zipCode)
       .then((response) => {
-        setFieldValue('street', currentClient.street)
-        setFieldValue('neighborhood', currentClient.neighborhood)
+        const city = cities.find((item) => item.name === response.city)
+        setFieldValue('street', response.street)
+        setFieldValue('neighborhood', response.neighborhood)
         setFieldValue('state_id', city.state)
         setFieldValue('city_id', city._id)
         setLocation(response)
