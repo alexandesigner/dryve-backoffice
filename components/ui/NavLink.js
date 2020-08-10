@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-export default ({ href, children, disabled }) => {
+const NavLink = ({ href, children, disabled }) => {
   const router = useRouter()
 
   let className = children.props.className || ''
@@ -19,3 +19,5 @@ export default ({ href, children, disabled }) => {
   }
   return <Link href={href}>{React.cloneElement(children, { className })}</Link>
 }
+
+export default NavLink
