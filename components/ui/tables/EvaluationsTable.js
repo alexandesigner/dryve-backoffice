@@ -178,7 +178,7 @@ function EvaluationsTable(props) {
             </span>
           </Box>
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="left">
           <Box className={clsx(classes.info, classes.status)}>
             <Box>{evaluation.status_detail}</Box>
             <span>{formatValue('date', evaluation.status_updated_at)}</span>
