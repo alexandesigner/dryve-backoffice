@@ -1,0 +1,164 @@
+[
+  {
+    "_id": 1,
+    "initials": "AC",
+    "name": "Acre",
+    "country": 1
+  },
+  {
+    "_id": 2,
+    "initials": "AL",
+    "name": "Alagoas",
+    "country": 1
+  },
+  {
+    "_id": 3,
+    "initials": "AM",
+    "name": "Amazonas",
+    "country": 1
+  },
+  {
+    "_id": 4,
+    "initials": "AP",
+    "name": "Amapá",
+    "country": 1
+  },
+  {
+    "_id": 5,
+    "initials": "BA",
+    "name": "Bahia",
+    "country": 1
+  },
+  {
+    "_id": 6,
+    "initials": "CE",
+    "name": "Ceará",
+    "country": 1
+  },
+  {
+    "_id": 7,
+    "initials": "DF",
+    "name": "Distrito Federal",
+    "country": 1
+  },
+  {
+    "_id": 8,
+    "initials": "ES",
+    "name": "Espírito Santo",
+    "country": 1
+  },
+  {
+    "_id": 9,
+    "initials": "GO",
+    "name": "Goiás",
+    "country": 1
+  },
+  {
+    "_id": 10,
+    "initials": "MA",
+    "name": "Maranhão",
+    "country": 1
+  },
+  {
+    "_id": 11,
+    "initials": "MG",
+    "name": "Minas Gerais",
+    "country": 1
+  },
+  {
+    "_id": 12,
+    "initials": "MS",
+    "name": "Mato Grosso do Sul",
+    "country": 1
+  },
+  {
+    "_id": 13,
+    "initials": "MT",
+    "name": "Mato Grosso",
+    "country": 1
+  },
+  {
+    "_id": 14,
+    "initials": "PA",
+    "name": "Pará",
+    "country": 1
+  },
+  {
+    "_id": 15,
+    "initials": "PB",
+    "name": "Paraíba",
+    "country": 1
+  },
+  {
+    "_id": 16,
+    "initials": "PE",
+    "name": "Pernambuco",
+    "country": 1
+  },
+  {
+    "_id": 17,
+    "initials": "PI",
+    "name": "Piauí",
+    "country": 1
+  },
+  {
+    "_id": 18,
+    "initials": "PR",
+    "name": "Paraná",
+    "country": 1
+  },
+  {
+    "_id": 19,
+    "initials": "RJ",
+    "name": "Rio de Janeiro",
+    "country": 1
+  },
+  {
+    "_id": 20,
+    "initials": "RN",
+    "name": "Rio Grande do Norte",
+    "country": 1
+  },
+  {
+    "_id": 21,
+    "initials": "RO",
+    "name": "Rondônia",
+    "country": 1
+  },
+  {
+    "_id": 22,
+    "initials": "RR",
+    "name": "Roraima",
+    "country": 1
+  },
+  {
+    "_id": 23,
+    "initials": "RS",
+    "name": "Rio Grande do Sul",
+    "country": 1
+  },
+  {
+    "_id": 24,
+    "initials": "SC",
+    "name": "Santa Catarina",
+    "country": 1
+  },
+  {
+    "_id": 25,
+    "initials": "SE",
+    "name": "Sergipe",
+    "country": 1
+  },
+  {
+    "_id": 26,
+    "initials": "SP",
+    "name": "São Paulo",
+    "country": 1
+  },
+  {
+    "_id": 27,
+    "initials": "TO",
+    "name": "Tocantins",
+    "country": 1
+  }
+]

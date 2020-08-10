@@ -1,0 +1,231 @@
+[
+  {
+    "purchases_by_brands": [
+      {
+        "name": "HB20",
+        "make_url": "/images/brand-1.png",
+        "value": "197"
+      },
+      {
+        "name": "Onix",
+        "make_url": "/images/brand-2.png",
+        "value": "183"
+      },
+      {
+        "name": "Renegade",
+        "make_url": "/images/brand-3.png",
+        "value": "125"
+      },
+      {
+        "name": "T-Cross",
+        "make_url": "/images/brand-4.png",
+        "value": "109"
+      },
+      {
+        "name": "Kicks",
+        "make_url": "/images/brand-5.png",
+        "value": "86"
+      }
+    ],
+    "price_comparative": [
+      {
+        "id": "in_average",
+        "label": "Na média",
+        "value": 60,
+        "color": "hsl(209deg 85% 43%)"
+      },
+      {
+        "id": "above_average",
+        "label": "Acima da média",
+        "value": 25,
+        "color": "hsl(2deg 81% 60%)"
+      },
+      {
+        "id": "below_average",
+        "label": "Abaixo da média",
+        "value": 15,
+        "color": "hsl(46deg 91% 65%)"
+      }
+    ],
+    "vehicles_publisheds": {
+      "icon": "cars",
+      "label": "carros publicados",
+      "value": "397",
+      "percent": { "value": "4", "since": "este mês", "positive": false }
+    },
+    "evaluations_today": {
+      "icon": "evaluations",
+      "label": "avaliações hoje",
+      "value": "29",
+      "percent": { "value": "36", "since": "desde ontem", "positive": true }
+    },
+    "average_ticket": {
+      "icon": "financial",
+      "label": "ticket médio do estoque",
+      "value": "R$ 42.567",
+      "percent": { "value": "6", "since": "este mês", "positive": false }
+    },
+    "vehicles": [
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "3bfbb488-4a5c-4dba-b1ce-46003c18c3a6",
+        "mileage": 37303,
+        "model_year": 2018,
+        "name": "TITANIUM 2.0 16V TB 248CV 4x4 4P",
+        "transmission_type": "Automático",
+        "fuel_type": "Gasolina",
+        "vehicle_uuid": "6bf5ccd9-17ef-455c-aef9-c1b797329936",
+        "model_name": "FUSION",
+        "manufacturing_year": 2017,
+        "version_name": "TITANIUM 2.0 16V TB",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/6bf5ccd9-17ef-455c-aef9-c1b797329936/showroom/external/front_right_10x.jpeg",
+        "brand_name": "FORD",
+        "ad_selling_price": 103990,
+        "model_uuid": "8872911d-0bbc-45c0-9d1e-de66d098b808",
+        "brand_uuid": "7cdb22f3-5da4-45c4-bb45-677a6a3fb819",
+        "created_at": "2020-08-06T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00",
+        "owner_uuid": "f3b76178-9c70-4761-98b3-f2f5f15e7dab",
+        "owner_type": "partner"
+      },
+      {
+        "evaluation_type": "presential",
+        "version_uuid": "b0c12112-0b72-4420-9254-ed125e6c3a2b",
+        "mileage": 89541,
+        "model_year": 2014,
+        "name": "EXL 2.0 16V FLEX 155CV 4x2 4P",
+        "transmission_type": "Automático",
+        "fuel_type": "Etanol/Gasolina",
+        "vehicle_uuid": "14ada4a4-7033-4b1f-9578-8a654b711d70",
+        "model_name": "CR-V",
+        "manufacturing_year": 2014,
+        "version_name": "EXL 2.0 16V FLEX",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/14ada4a4-7033-4b1f-9578-8a654b711d70/showroom/external/front_right_10x.jpeg",
+        "brand_name": "HONDA",
+        "ad_selling_price": 69900,
+        "model_uuid": "c7061453-2199-4be3-84fd-9ea17ec93667",
+        "brand_uuid": "8b452147-e524-4d59-9de7-7cc0997eff20",
+        "created_at": "2020-08-06T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00",
+        "owner_uuid": "34c97a6c-db01-456e-ae3a-07d8e502af16",
+        "owner_type": "partner"
+      },
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "3c63068d-6ccb-4595-affd-1c225ac5905c",
+        "mileage": 106158,
+        "model_year": 2013,
+        "name": "XR 1.4 8V FLEX 82CV 4x2 4P",
+        "transmission_type": "Mecânico",
+        "fuel_type": "Etanol/Gasolina",
+        "vehicle_uuid": "da8a32b9-a0d4-4b05-b74d-2cd5664e85ea",
+        "model_name": "207",
+        "manufacturing_year": 2012,
+        "version_name": "XR 1.4 8V FLEX",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/da8a32b9-a0d4-4b05-b74d-2cd5664e85ea/showroom/external/front_right_10x.jpeg",
+        "brand_name": "PEUGEOT",
+        "ad_selling_price": 17550,
+        "model_uuid": "aba61dbe-d817-4191-a1bd-61ef951a69bf",
+        "brand_uuid": "ad771d9a-3bd5-45a6-a71a-56a44dc27b9e",
+        "created_at": "2020-08-06T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00"
+      },
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "578fa025-2ff1-4c16-8b80-59a4cf55ea08",
+        "mileage": 143637,
+        "model_year": 2010,
+        "name": "SEDAN EX MT 1.6 16V 126CV 4x2 4P",
+        "transmission_type": "Mecânico",
+        "fuel_type": "Gasolina",
+        "vehicle_uuid": "99d26a49-5109-4e9d-b582-2a220dc522b3",
+        "model_name": "CERATO",
+        "manufacturing_year": 2009,
+        "version_name": "SEDAN EX MT 1.6 16V",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/99d26a49-5109-4e9d-b582-2a220dc522b3/showroom/external/front_right_10x.jpeg",
+        "brand_name": "KIA",
+        "ad_selling_price": 24999,
+        "model_uuid": "51cbf59b-a461-4c48-b0a2-86c76c2bfdaa",
+        "brand_uuid": "a65bdb87-9a77-4ceb-8645-5d92af98088d",
+        "created_at": "2020-08-06T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00"
+      },
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "86567045-21ea-4f0c-b2ea-642ea28936d1",
+        "mileage": 52626,
+        "model_year": 2019,
+        "name": "LIVE 1.6 THP FLEX 173CV 4x2 4P",
+        "transmission_type": "Automático",
+        "fuel_type": "Etanol/Gasolina",
+        "vehicle_uuid": "c6fa2a63-2623-4ab1-bef6-b6e2d36e280e",
+        "model_name": "C4 LOUNGE",
+        "manufacturing_year": 2018,
+        "version_name": "LIVE 1.6 THP FLEX",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/c6fa2a63-2623-4ab1-bef6-b6e2d36e280e/showroom/external/front_right_10x.jpeg",
+        "brand_name": "CITROEN",
+        "ad_selling_price": 55990,
+        "model_uuid": "dae53b7a-f182-4e9f-88d8-e019dcbc4aa5",
+        "brand_uuid": "f2235215-792d-445a-bdda-7eed54071367",
+        "created_at": "2020-08-06T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00"
+      },
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "d3f6d9fd-4e2b-4a5f-b7a9-e980252aa7bd",
+        "mileage": 116785,
+        "model_year": 2015,
+        "name": "LXR 2.0 16V FLEX 155CV 4x2 4P",
+        "transmission_type": "Automático",
+        "fuel_type": "Etanol/Gasolina",
+        "vehicle_uuid": "bfb5de87-4882-4538-88a4-b25578f433d3",
+        "model_name": "CIVIC",
+        "manufacturing_year": 2014,
+        "version_name": "LXR 2.0 16V FLEX",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/bfb5de87-4882-4538-88a4-b25578f433d3/showroom/external/front_right_10x.jpeg",
+        "brand_name": "HONDA",
+        "ad_selling_price": 53499,
+        "model_uuid": "3edaf0ae-efa9-4fc4-8ec1-5f55aca46c5c",
+        "brand_uuid": "8b452147-e524-4d59-9de7-7cc0997eff20",
+        "created_at": "2020-07-01T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00",
+        "owner_uuid": "c7c16db4-346f-4980-9e41-41536de06f9b",
+        "owner_type": "partner"
+      },
+      {
+        "evaluation_type": "remote",
+        "version_uuid": "6fd96cf1-d9cc-49e7-a433-a55703ee0021",
+        "mileage": 81900,
+        "model_year": 2015,
+        "name": "SE 1.6 16V FLEX 130CV 4x2 4P",
+        "transmission_type": "Mecânico",
+        "fuel_type": "Etanol/Gasolina",
+        "vehicle_uuid": "cd106ceb-6d5f-4063-b42d-618937210e0e",
+        "model_name": "FIESTA",
+        "manufacturing_year": 2015,
+        "version_name": "SE 1.6 16V FLEX",
+        "image": "https://d3istz5qdrltsq.cloudfront.net/inventory/images/vehicles/cd106ceb-6d5f-4063-b42d-618937210e0e/showroom/external/front_right_10x.jpeg",
+        "brand_name": "FORD",
+        "ad_selling_price": 31999,
+        "model_uuid": "6fbfc6df-0430-4f63-8727-7d1fc52da240",
+        "brand_uuid": "7cdb22f3-5da4-45c4-bb45-677a6a3fb819",
+        "created_at": "2020-08-01T10:22:09+00:00",
+        "status": "pending",
+        "status_detail": "Aguardando confirmação",
+        "status_updated_at": "2020-08-08T02:15:09+00:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "client_uuid": "f3b76178-9c70-4761-98b3-f2f5f15e7dab",
+    "status": "lead",
+    "first_name": "Paulo Henrique",
+    "last_name": "Mattos",
+    "email": "ph.mattos@gmail.com",
+    "phones": [
+      {
+        "number": "(86) 99653-8899"
+      }
+    ],
+    "zip_code": "70200001",
+    "street": "SCES Trecho 1",
+    "number": "112",
+    "neighborhood": "Asa Sul",
+    "complement": "",
+    "city_id": 882,
+    "state_id": 7,
+    "vehicles": ["3adeb86b-d03c-4498-8548-bec7e9a23c78"],
+    "created_at": "2020-08-06T10:22:09+00:00",
+    "updated_at": "2020-08-06T10:22:09+00:00"
+  },
+  {
+    "client_uuid": "c7c16db4-346f-4980-9e41-41536de06f9b",
+    "status": "client",
+    "first_name": "Juliana Martins",
+    "last_name": "Silva",
+    "email": "jumartins.silva@hotmail.com",
+    "phones": [
+      {
+        "number": "(86) 99819-3112"
+      }
+    ],
+    "zip_code": "64023500",
+    "street": "Rua Ivan Tito de Oliveira",
+    "number": "1566",
+    "neighborhood": "Lourival Parente",
+    "complement": "",
+    "city_id": 3582,
+    "state_id": 17,
+    "vehicles": ["ba79de1b-5919-4537-b294-638b2ddddc42"],
+    "created_at": "2020-08-06T10:22:09+00:00",
+    "updated_at": "2020-08-06T10:22:09+00:00"
+  },
+  {
+    "client_uuid": "34c97a6c-db01-456e-ae3a-07d8e502af16",
+    "status": "client",
+    "first_name": "Luis",
+    "last_name": "Rocha",
+    "email": "luis.rocha@yahoo.com",
+    "phones": [
+      {
+        "number": "(86) 98877-3331"
+      }
+    ],
+    "zip_code": "40010010",
+    "street": "Rua da Grécia",
+    "number": "551",
+    "neighborhood": "Comércio",
+    "complement": "",
+    "city_id": 616,
+    "state_id": 5,
+    "vehicles": ["e93e3dcb-494e-467e-905b-ecfb66d48c31"],
+    "created_at": "2020-08-06T10:22:09+00:00",
+    "updated_at": "2020-08-06T10:22:09+00:00"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "dryve-backoffice",
+  "version": "1.0.1",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@nivo/colors": "^0.62.0",
+    "@nivo/pie": "^0.62.0",
+    "@vishnucss/utils": "^1.1.0-rc.1",
+    "apisauce": "^1.1.2",
+    "autoprefixer": "^9.8.6",
+    "cep-promise": "^3.0.9",
+    "clean-css": "^4.2.3",
+    "clsx": "^1.1.1",
+    "dayjs": "^1.8.32",
+    "easy-peasy": "^3.3.1",
+    "formik": "^2.1.5",
+    "next": "latest",
+    "notistack": "^0.9.17",
+    "nprogress": "^0.2.0",
+    "postcss": "^7.0.32",
+    "prop-types": "^15.7.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-text-mask": "^5.4.3",
+    "redux-persist": "^6.0.0",
+    "uuid": "^8.3.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "babel-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-react-hooks": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
